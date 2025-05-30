@@ -11,16 +11,16 @@ const CardExpeience = () => {
         {
             ProjectsExperienceData.map((item) => {
                 return (
-                    <div className="card shadow-md shadow-emerald-700" key={item.id}>
+                    <div className="card shadow-md shadow-emerald-700 z-[10]" key={item.id}>
                         <div className={`face face1`}>
                             <Image src={item.picture} alt={item.title} width={700} height={700} className="w-full h-full rounded-md object-cover" priority />
-                            <div className="content">
-                                <h2 className="
-                                        text-emerald-700 font-semibold text-center text-[20px] uppercase
-                                        bg-conic/decreasing from-[var(--gardient-from)] via-[var(--highlight)] to-[var(--gardient-to)]
-                                        w-full absolute inset-x-0 bottom-0 py-1.5 rounded-bl-md rounded-br-md
-                                    ">
-                                        {item.title}
+                            <div className="
+                                absolute z-[20] inset-x-0 bottom-0
+                                w-full rounded-bl-md rounded-br-md py-1.5
+                                bg-conic/decreasing from-[var(--gardient-from)] via-[var(--highlight)] to-[var(--gardient-to)]
+                            ">
+                                <h2 className=" text-emerald-700 font-semibold text-center text-[20px] uppercase">
+                                    {item.title}
                                 </h2>
                             </div>
                         </div>
