@@ -1,0 +1,262 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --bg: #0C1821;
+  --nav: #233139;
+  --card1: #465B49;
+  --card2: #081218;
+  --gardient-from: #B3ECAB;
+  --gardient-to: #86C8B7;
+  --highlight: #8FFABD;
+  --text1: #7AA295;
+  --text2: #6D7478;
+  --text-white: #d1d5dc;
+
+}
+
+body{
+  background-color: var(--bg);
+}
+nav, footer {
+  color: var(--text-white);
+}
+section {margin: 5rem 2rem;}
+
+
+@layer components{
+  .container {
+      @apply px-4 mx-auto
+  }
+  .bg-nav{ background-color: var(--nav);}
+
+  .textHighlight {color: var(--highlight);}
+
+
+  .gardient-text {
+    @apply bg-gradient-to-r from-[var(--gardient-from)] to-[var(--gardient-to)] bg-clip-text text-transparent
+  }
+
+  .gardient-bg{
+    @apply bg-gradient-to-r from-[var(--gardient-from)] to-[var(--gardient-to)]
+  }
+
+
+   /* ================ start project ================ */
+  .tab-trigger {
+    @apply  bg-emerald-800 mx-3 text-gray-900 cursor-pointer
+            data-[state=active]:text-[var(--highlight)]
+  }
+  .tab-content {
+    @apply bg-[var(--text-white)] rounded-xl w-[100%] pt-10 pb-20 px-4 sm:px-8
+  }
+
+  .card {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+  }
+  .card .face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.7s
+    /* @apply absolute top-0 start-0 w-full h-full transition duration-300 */
+  }
+  .card .face.face1 {
+    background-color: #006045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    transform-origin: bottom;
+    border-radius: 8px;
+    /* @apply bg-[#333] flex items-center justify-center z-10 transform origin-bottom */
+  }
+  .card .face.face1 h3 {
+    text-align: center;
+    font-size: 16px
+    /* @apply text-red-800 text-center text-[16px]; */
+  }
+  .card:hover .face.face1 {
+    transform: translateY(-100%) rotateX(90deg);
+    background-color: #006045;
+    /* @apply translate-y-[-100%] rotate-x-[90deg] bg-[#ff0057] */
+  }
+  .card .face.face2 {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform-origin: top;
+    transform: translateY(100%) rotateX(90deg);
+    border-radius: 8px;
+    /* @apply bg-green-700 flex items-center justify-center p-[20px] 
+            transform origin-top translate-y-[-100%] rotate-x-[90deg] */
+  }
+  .card:hover .face.face2 {
+    transform: translateY(0) rotateX(0deg);
+    /* @apply translate-y-0 rotate-x-[0deg] transform */
+  }
+    /* ================ end project ================ */
+
+
+
+  /* ================ start experience ================ */
+
+  .position {
+    @apply text-[var(--gardient-to)]
+  }
+
+  .locate-time {
+    @apply absolute italic bg-[var(--highlight)] py-1 px-3 
+            font-semibold rounded-md 
+            top-[-60px] sm:top-[-40px]
+            start-0 end-auto md:end-0 md:start-auto
+            text-gray-800
+  }
+
+  .wrapper:nth-child(odd) {
+    @apply ml-7 md:ml-0 mr-auto transform translate-x-[-15px] z-[5]
+  }
+  .wrapper:nth-child(even) {
+    @apply mr-0 ml-0 md:ml-auto transform translate-x-[15px] z-[5]
+  }
+  .circle {
+    @apply absolute top-0 end-[-54px] z-[6] w-9 h-9 inline-block rounded-full bg-white
+  }
+
+  .wrapper:nth-child(odd) .circle {
+    @apply start-[-53px] md:start-[314px] lg:start-[440px] xl:start-[570px]
+  }
+  .wrapper:nth-child(even) .circle {
+    @apply start-[-54px]
+  }
+
+  .timeline::after {
+    @apply absolute rounded-md content-[''] 
+            w-2 h-full bg-[var(--highlight)] 
+            top-0 start-[38px] md:start-[50%] ml-[-3px] z-[-1px]
+            animate-movetimeline
+  }
+
+
+  .wrapper:nth-child(odd) .text-box .arrow {
+    @apply absolute w-0 h-0 top-5 z-[6] 
+            border-t-[15px] border-t-transparent 
+            border-b-[15px] border-b-transparent
+
+            md:border-l-[15px] md:border-l-gray-300 md:end-[-15px]
+            md:left-[296px] lg:left-[424px] xl:left-[551px]
+
+            border-r-[15px] border-r-gray-300 start-[-15px] 
+            
+            md:border-r-0 md:border-r-transparent md:start-0
+
+            
+
+  }
+  .wrapper:nth-child(even) .text-box .arrow {
+    @apply absolute w-0 h-0 top-5 z-[6] 
+            border-t-[15px] border-t-transparent 
+            border-b-[15px] border-b-transparent
+
+            border-r-[15px] border-r-gray-300 start-[-15px]
+            
+  }
+  .wrapper:nth-child(even) .locate-time {
+    @apply md:start-0 md:end-auto
+  }
+
+  .wrapper {
+    @apply animate-movedown opacity-0 start-10 md:start-0
+  }
+
+  .wrapper:nth-child(1){
+    @apply delay-0
+  }
+  .wrapper:nth-child(2){
+    @apply delay-[1s]
+  }
+  .wrapper:nth-child(3){
+    @apply delay-[2s]
+  }
+  .wrapper:nth-child(4){
+    @apply delay-[3s]
+  }
+}
+
+@theme {
+  --animate-movetimeline: movetimeline 6s linear forwards;
+  @keyframes movetimeline {
+    0%{
+      height: 0;
+    }
+    100% {
+      height: 100%;
+    }
+  }
+}
+
+@theme {
+  --animate-movedown: movedown 2s linear forwards;
+  @keyframes movedown {
+    0%{
+      opacity: 1;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px)
+    }
+  }
+}
+
+ /* ================ end experience ================ */
+
+/* @theme {
+  --animate-wiggle: wiggle 1.5s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(-3deg);
+    }
+  }
+
+} */
+
+ /* ================ contact ================ */
+.contact-card {
+  @apply relative w-[250px] sm:w-[300px] h-[400px] bg-white transform-3d perspective-[1000px] shadow-lg rounded-md duration-[1s] ease-in-out
+}
+
+.contact-card:hover {
+  @apply sm:translate-x-[50%]
+}
+
+.contact-card .contact-detail {
+  @apply absolute top-0 left-0 w-full h-full p-5 shadow-lg
+}
+
+.contact-card .img-cover {
+  @apply relative w-full h-full rounded-md z-10 origin-left transform-3d duration-[1s] bg-[#ff7262]
+}
+
+.contact-card:hover .img-cover {
+  @apply sm:rotate-y-[-180deg] rotate-y-[-90deg]
+}
+
+.contact-card .img-cover :nth-child(2) {
+  @apply rotate-y-[180deg] scale-x-[-1]
+}
