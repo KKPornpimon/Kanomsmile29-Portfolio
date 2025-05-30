@@ -17,7 +17,7 @@ const CardExpeience = () => {
                             <div className="
                                 absolute z-[20] inset-x-0 bottom-0
                                 w-full rounded-bl-md rounded-br-md py-1.5
-                                bg-amber-600
+                                bg-conic/decreasing from-[var(--gardient-from)] via-[var(--highlight)] to-[var(--gardient-to)]
                             ">
                                 <h2 className=" text-emerald-700 font-semibold text-center text-[20px] uppercase">
                                     {item.title}
