@@ -24,7 +24,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="fixed top-0 z-50 px-16 flex justify-center w-full">
+    <nav className="relative py-2 flex justify-center items-center">
+      <div className='fixed top-0 z-50 px-16 w-full'>
         <div className="hidden sm:flex top-0 mx-auto items-center justify-center bg-nav rounded-full w-full sm:w-[480px] p-4 gap-7">
             {
                 NavLinks.map((item,index) => {
@@ -59,12 +60,12 @@ const Navbar = () => {
         </div>
 
         {/* mobile */}
-        <div onClick={toggleNav} className='absolute sm:hidden z-[999] top-5 right-14 flex cursor-pointer border rounded-md p-0.5'>
+        <div onClick={toggleNav} className='absolute sm:hidden z-[999] top-5 right-12 flex cursor-pointer border rounded-md p-0.5'>
             { nav? <X size={30} /> : <Menu size={30} /> }    
         </div>
         <div className={`
           fixed left-0 top-0 w-full h-full bg-black/90
-          transform transition-transform duration-300
+          transform transition-transform duration-700
           ${ nav? 'translate-x-0' : '-translate-x-full' }
           `}
         >
@@ -80,7 +81,7 @@ const Navbar = () => {
               }
             </div>
         </div>
-        
+      </div>  
     </nav>
   )
 }

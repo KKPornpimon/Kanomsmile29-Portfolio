@@ -31,7 +31,7 @@ const About = () => {
                     initial='initial'
                     animate='animate'
                     variants={varients.moveRight}
-                    transition={transition.moveRight}
+                    transition='duration: 0.9'
                 >
                     <h2 className="font-bold gardient-text text-transparent">Back-end Developer</h2>
                     <p className="indent-5"> 
@@ -51,18 +51,18 @@ const About = () => {
                     </p>
                 </MotionDiv>
             </div>
-            <div className="px-2 py-5 hidden sm:flex relative items-center justify-center justify-items-center">
-                
-                <MotionDiv 
-                    className="absolute w-[200px] h-[250px] bg-[#d9d9d9] rounded-md rotate-7"
-                    initial='initial'
-                    animate='animate'
-                    variants={varients.moveLeft}
-                    transition={transition.moveLeft}
+            <MotionDiv 
+                className="px-2 py-5 hidden sm:flex relative items-center justify-center justify-items-center"
+                initial='initial'
+                animate='animate'
+                variants={varients.moveLeft}
+                transition={transition.moveLeft}
                 >
+                
+                <div className="absolute w-[200px] h-[250px] bg-[#d9d9d9] rounded-md rotate-7">
                     <Image src='/images/file1.png' alt="about image" width={180} height={180} />
-                </MotionDiv>
-            </div>
+                </div>
+            </MotionDiv>
         </div>
         
 

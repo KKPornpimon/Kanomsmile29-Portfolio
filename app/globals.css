@@ -14,6 +14,7 @@
   --text1: #7AA295;
   --text2: #6D7478;
   --text-white: #d1d5dc;
+  --neon: #BAFD50;
 
 }
 
@@ -250,7 +251,7 @@ section {margin: 5rem 2rem;}
 }
 
 .contact-card .img-cover {
-  @apply relative w-full h-full rounded-md z-10 origin-left transform-3d duration-[1s] bg-[#ff7262]
+  @apply relative w-full h-full rounded-md z-10 origin-left transform-3d duration-[1s] bg-[var(--neon)]
 }
 
 .contact-card:hover .img-cover {
