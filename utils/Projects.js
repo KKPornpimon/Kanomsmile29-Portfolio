@@ -16,7 +16,7 @@ export const ProjectsExperienceData = [
         picture: '/images/project/experience/ainu.png',
         title: 'AINU',
         detail: [
-            'Create feature category and debugging.',
+            'Create feature category, fix and modify code.',
             'Managemant content with CMS.',
         ],
         url: 'http://ainu.pospop.co/',
@@ -27,7 +27,8 @@ export const ProjectsExperienceData = [
         picture: '/images/project/experience/cimb.png',
         title: 'CIMB',
         detail: [
-            'Debugging and responsible for any special assignment assigned.',
+            'Fix and modify code.',
+            'Responsible for any special assignment assigned.',
         ],
         url: 'https://cimbthaiauto.com/home.php',
         skills: ['HTML','CSS','Javascript'],
@@ -72,7 +73,8 @@ export const ProjectsExperienceData = [
         picture: '/images/project/experience/eartone.png',
         title: 'Eartone',
         detail: [
-            'Debugging and managemant content with Joomla.'
+            'Fix and modify code.', 
+            'Managemant content with Joomla.'
         ],
         url: 'https://eartone.co.th/',
         skills: ['Joomla'],
