@@ -33,8 +33,8 @@ export const metadata = {
     images: [
       {
         url: 'https://kanomsmile29-portfolio.vercel.app/og-image.png', // ต้องใช้ลิงก์เต็ม!
-        width: 1272,
-        height: 1272,
+        width: 1200,
+        height: 675,
         alt: 'Pompimon Portfolio Thumbnail',
       },
     ],
