@@ -26,7 +26,7 @@ const CardExpeience = () => {
                         </div>
                         <div className="relative face face2">
                             <div className="content">
-                                <ul className="leading-5 ml-5">
+                                <ul className="leading-5 ml-1">
                                     {
                                         item.detail.map((e, index) => {
                                             return (
@@ -46,7 +46,7 @@ const CardExpeience = () => {
                                         })
                                     }
                                 </div>
-                                <div className="absolute inset-x-0 bottom-3 flex justify-center items-center">  
+                                <div className="absolute inset-x-0 bottom-2 flex justify-center items-center">  
                                     {
                                         item.url !== '' ? (
                                             <Link href={item.url} target="_blank" className="text-center">

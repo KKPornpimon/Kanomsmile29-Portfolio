@@ -11,7 +11,7 @@ const Experiences = () => {
         <div>
           <ul className="timeline relative w-full mt-12 ">
 
-            <li className="wrapper relative z-[3] w-[90%] md:w-[50%] py-5 md:py-2 px-5 my-9">
+            <li className="wrapper relative z-[3] w-[90%] md:w-[50%] py-5 md:py-2 my-9">
               <div className="text-box relative z-[3] rounded-md bg-gray-300 py-3 ps-7 pe-3">
                 <span className="circle">
                   <img 
