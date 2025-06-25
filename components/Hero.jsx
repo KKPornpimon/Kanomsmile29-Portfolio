@@ -53,7 +53,7 @@ const Hero = () => {
       <div className="text-center flex flex-col sm:flex-row">
             <div className="my-5 mx-2">
                 <Link 
-                  href='/images/Resume_Pornpimon_Pradabsri_FED.pdf'
+                  href='/images/Resume Pornpimon Pradabsri_FED_.pdf'
                   target="_blank"
                 >
                     
