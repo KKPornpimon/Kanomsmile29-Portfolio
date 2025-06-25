@@ -17,11 +17,17 @@ const Experiences = () => {
                   <li key={index} className="wrapper relative z-[3] w-[90%] md:w-[50%] py-5 md:py-2 my-9">
                     <div className="text-box relative z-[3] rounded-md bg-gray-300 py-3 ps-7 pe-3">
                       <span className="circle">
-                        <img 
-                          src={item.logo}
-                          alt={item.place} 
-                          className="absolute top-0 rounded-full flex items-center justify-center"
-                        />
+                        {
+                          item.logo ? (
+                            <img 
+                              src={item.logo}
+                              alt={item.place} 
+                              className="absolute top-0 rounded-full flex items-center justify-center"
+                            />
+                          ) : (
+                            <div className="absolute top-0 rounded-full flex items-center justify-center bg-white w-10 h-10"></div>
+                          )
+                        }
                       </span>
                       <span className="arrow"></span>
                       <h2 className="text-[17px] font-semibold pb-2"> {item.position} / <span className="inline-block text-emerald-800"> {item.place} </span> </h2>

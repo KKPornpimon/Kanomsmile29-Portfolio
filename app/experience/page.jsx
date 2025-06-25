@@ -102,7 +102,7 @@ const Experiences = () => {
                       <li>Coordinate between end user and programmer.</li>
                       <li>Mock up designed.</li>
                       <li>Participate in prototype build and solve problems.</li>
-                      <li>Responsible for any special assignment assigned.</li>
+                      <li>Responsible for any special assignment assigned. bbb</li>
                     </ul>
                   </div>
                 </div>

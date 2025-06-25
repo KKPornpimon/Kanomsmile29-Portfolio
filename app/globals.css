@@ -126,26 +126,26 @@ section {margin: 80px 5px;}
   }
 
   .wrapper:nth-child(odd) {
-    @apply ml-4  mr-auto transform translate-x-[-15px] z-[5]
+    @apply ml-4 md:ml-[0px] mr-auto transform translate-x-[-15px] z-[5]
   }
   .wrapper:nth-child(even) {
-    @apply ml-[-14px] md:ml-[367px] lg:ml-[510px] xl:ml-[638px] 2xl:ml-[780px] transform translate-x-[15px] z-[5]
+    @apply ml-[-14px] md:ml-[375px] lg:ml-[510px] xl:ml-[638px] 2xl:ml-[780px] transform translate-x-[15px] z-[5]
   }
   .circle {
     @apply absolute top-[-15px] end-[-54px] z-[6] w-9 h-9 inline-block rounded-full bg-white
   }
 
   .wrapper:nth-child(odd) .circle {
-    @apply start-[-37px] md:start-[343px] lg:start-[472px] xl:start-[600px] 2xl:start-[730px]
+    @apply start-[-37px] md:start-[365px] lg:start-[497px] xl:start-[627px] 2xl:start-[757px]
   }
   .wrapper:nth-child(even) .circle {
-    @apply start-[-38px] md:start-[-36px] lg:start-[-50px] 2xl:start-[-65px]
+    @apply start-[-38px] md:start-[-36px] lg:start-[-44px] xl:start-[-40px] 2xl:start-[-50px]
   }
 
   .timeline::after {
     @apply absolute rounded-md content-[''] 
             w-2 h-full bg-[var(--highlight)] 
-            top-[-15px] start-[20px] md:start-[50%] ml-[-3px] z-[-1px]
+            top-[-15px] start-[20px] md:start-[51%] ml-[-3px] z-[-1px]
             animate-movetimeline
   }
 
@@ -156,9 +156,9 @@ section {margin: 80px 5px;}
             border-b-[15px] border-b-transparent
 
             md:border-l-[15px] md:border-l-gray-300 md:end-[-15px]
-            md:left-[341px] lg:left-[460px] xl:left-[580px] 2xl:left-[700px] 
+            md:left-[361px] lg:left-[489px] xl:left-[616px] 2xl:left-[742px] 
 
-            border-r-[15px] border-r-gray-300 start-[-15px] 
+            border-r-[15px] border-r-gray-300 start-[-15px]
             
             md:border-r-0 md:border-r-transparent md:start-0
 
