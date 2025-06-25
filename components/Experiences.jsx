@@ -14,8 +14,8 @@ const Experiences = () => {
             {
               ExperiencesData.map((item, index) => {
                 return (
-                  <li key={index} className="wrapper relative z-[3] w-[90%] md:w-[50%] py-5 md:py-2 my-9">
-                    <div className="text-box relative z-[3] rounded-md bg-gray-300 py-3 ps-7 pe-3">
+                  <li key={index} className={`wrapper relative z-[3] w-[90%] md:w-[50%] py-5 md:py-2 my-9`}>
+                    <div className={`text-box relative z-[3] rounded-md ${index === 0 ? 'bg-red-300' : 'bg-gray-300'} py-3 ps-7 pe-3`}>
                       <span className="circle">
                         {
                           item.logo ? (
@@ -25,15 +25,15 @@ const Experiences = () => {
                               className="absolute top-0 rounded-full flex items-center justify-center"
                             />
                           ) : (
-                            <div className="absolute top-0 rounded-full flex items-center justify-center bg-white w-10 h-10"></div>
+                            <div className={`absolute top-0 rounded-full flex items-center justify-center ${index === 0 ? 'bg-red-600' : 'bg-white'} w-10 h-10`}></div>
                           )
                         }
                       </span>
                       <span className="arrow"></span>
                       <h2 className="text-[17px] font-semibold pb-2"> {item.position} / <span className="inline-block text-emerald-800"> {item.place} </span> </h2>
-                      <small className="locate-time"> {item.date} / {item.location} </small>
+                      <small className={`locate-time ${index === 0 ? 'bg-red-700 text-white' : 'bg-[var(--highlight)]'}`}> {item.date} / {item.location} </small>
                       <div className="desc">
-                        <ul className="list-disc text-gray-700">
+                        <ul className={` ${index === 0 ? 'indent-5' : 'list-disc'}  text-gray-700`}>
                           {
                             item.detail.map((detail, index) => {
                               return (

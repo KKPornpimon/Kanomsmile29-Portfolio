@@ -2,21 +2,16 @@
 
 export const ExperiencesData = [
     {
-        position: 'Front-end Developer',
-        place: 'The Mather',
-        date: 'May 2021 - December 2023 ',
-        location: 'Lat Phrao, BKK',
-        logo: '/images/mather.jpg',
+        position: 'Treating chronic Office Syndrome and Piriformis Syndrome.',
+        place: '',
+        date: 'Jan 2024 - Present',
+        location: 'Dindaeng, BKK',
+        logo: '',
         detail: [
-            'Develop front-end web-based applications using HTML, CSS, Bootstrap5, Tailwind CSS, JavaScript, React.js, Next.js, CodeIgniter.',
-            'Build a website or application based on designs from a UX/UI Designer.',
-            'UX/UI designed using Figma.',
-            'Collaborate with back-end developers, designers, and product managers to implement new features and improve existing ones.',
-            'Create a user manual for a mobile application.',
-            'Debug in the existing code and improve it as assigned.',
-            'As an admin, managed Content Management Systems (CMS), including adding, deleting, and editing content to display according to Entrepreneur requirements.',
-            'As a developer, directly managed modules, including adding, deleting, modifying, and customizing Content Management Systems (CMS).',
-            'Responsible for any special assignment assigned.',
+            'I resigned from my previous position to focus on my health, having experienced chronic Office Syndrome on no fewer than two occasions. Shortly after my resignation, an unexpected incident occurred: I lifted a heavy object incorrectly, resulting in Piriformis Syndrome, or sciatic nerve impingement by the piriformis muscle, with radiating pain down my left leg. This condition rendered me unable to walk for several months, necessitating a prolonged period of recovery.',
+            'I am now in a much improved condition. While I continue to undergo physical therapy, I can walk freely and have resumed my normal daily activities. During my rehabilitation, I also upskilled by working on various projects relevant to the Front-end Developer position I am currently seeking. My portfolio website showcases both my professional experience in this role and the projects I completed during my recovery, which I believe will be valuable for prospective employers.',
+            'I am a highly adaptable individual who quickly integrates into new teams. I am amiable, positive, humble, and eager to learn new things.',
+            'I sincerely hope to be granted the opportunity to demonstrate my capabilities in this role and am committed to delivering my best work for your organization.',
         ]
     },
     {
