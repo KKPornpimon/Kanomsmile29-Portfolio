@@ -13,7 +13,12 @@ const CardProjectMe = () => {
                     return (
                         <div className="card shadow-md shadow-emerald-700" key={item.id}>
                             <div className={`face face1`}>
-                                <Image src={item.picture} alt={item.title} width={700} height={700} className="w-full h-full rounded-md object-cover" priority />
+                                {
+                                    item.picture !== '' ?
+                                    <Image src={item.picture} alt={item.title} width={700} height={700} className="w-full h-full rounded-md object-cover" priority />
+                                    : ''
+                                }
+                                
                                 <div className="
                                     absolute z-[20] inset-x-0 bottom-0
                                     w-full rounded-bl-md rounded-br-md py-1.5
@@ -26,6 +31,7 @@ const CardProjectMe = () => {
                             </div>
                             <div className="relative face face2">
                                 <div className="content">
+                                    <h1 className="font-bold text-emerald-700 mb-3"> {item.category} </h1>
                                     <ul className="leading-5 ml-5">
                                         {
                                             item.detail.map((e, index) => {
@@ -47,6 +53,7 @@ const CardProjectMe = () => {
                                         }
                                     </div>
                                     <div className="absolute inset-x-0 bottom-3 flex justify-center items-center ">  
+                                        
                                         {
                                             item.code !== '' ? (
                                                 <Link href={item.code} target="_blank" className="text-center">
