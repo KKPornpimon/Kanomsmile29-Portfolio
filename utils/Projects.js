@@ -140,6 +140,38 @@ export const ProjectsMeData = [
     },
     {
         id: 3,
+        picture: '/images/project/practices/todo2.png',
+        category: 'FULL STACK',
+        title: 'Todos List',
+        detail: [
+            'Create RESTful API for CRUD with Express.js.',
+            'Check API Routing with Postman.',
+            'Connect database with prisma and MySQL.',
+            'UI for Todos List with React.js.',
+            'UI CRUD operations with Axios.',
+        ],
+        skills: ['Express.js','Prisma (MySQL)','React.js','Axios','CSS'],
+        code: 'https://github.com/KKPornpimon/TodosList-2-Fullstack',
+        url: '',
+    },
+    {
+        id: 4,
+        picture: '',
+        category: 'AUTHENTICATION (Backend)',
+        title: 'Register - Login',
+        detail: [
+            'Create user into database',
+            'User data validation.',
+            'Insert data with Prisma into MySQL database .',
+            'Login validation and data security validation with JWT and Bcrypt.',
+            'Data validation with Yup library'
+        ],
+        skills: ['Express.js','React.js','JWT','Bcrypt','Prisma (MySQL)','Yup (Validation)'],
+        code: 'https://github.com/KKPornpimon/Register-Login-Authentication',
+        url: '',
+    },
+    {
+        id: 5,
         picture: '',
         category: 'CRUD (Backend)',
         title: 'CRUD - (Express.js + MongoDB)',
@@ -153,7 +185,7 @@ export const ProjectsMeData = [
         url: '',
     },
     {
-        id: 4,
+        id: 6,
         picture: '',
         category: 'CRUD (Backend)',
         title: 'CRUD - (Restfull API Design)',
@@ -166,7 +198,7 @@ export const ProjectsMeData = [
         url: '',
     },
     {
-        id: 5,
+        id: 7,
         picture: '/images/project/practices/book1.png',
         category: 'FULL STACK',
         title: 'Books Store',
@@ -181,7 +213,7 @@ export const ProjectsMeData = [
         url: '',
     },
     {
-        id: 6,
+        id: 8,
         picture: '/images/project/practices/figma.png',
         category: 'UX/UI Design',
         title: 'My Portfolio',
@@ -193,7 +225,7 @@ export const ProjectsMeData = [
         url: '/',
     },
     {
-        id: 7,
+        id: 9,
         picture: '/images/project/practices/sos.png',
         category: 'UX/UI Design',
         title: 'Phuket SOS',
