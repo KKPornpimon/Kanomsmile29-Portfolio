@@ -30,30 +30,28 @@ const Hero = () => {
       </div>
       <p className="text-gray-300 w-full sm:w-[80%] text-center">
         I am seeking a position as a Front-end Developer. 
-        I have experience in building web applications using 
-        <span className="textHighlight"> React.js </span> , 
-        <span className="textHighlight"> Next.js </span> , 
-        <span className="textHighlight"> Tailwind CSS </span> , 
-        <span className="textHighlight"> Node.js </span> , 
-        and other related 
-        technologies.  I have basic knowledge about Back-end 
-        and learning 
-        <span className="textHighlight"> Supabase </span> ,
-        <span className="textHighlight"> Express </span> ,
-        <span className="textHighlight"> Clerk </span> ,
-        <span className="textHighlight"> Typescript </span> ,
-        to increase 
-        my ability. Ready to learn jobs and other relevant 
-        knowledge. I am highly motivated and passionate about 
-        this role. I continuously enhance my skills and actively 
-        improve myself to excel in this position. 
+        My experience includes building web applications using 
+        <span className="textHighlight"> React.js</span>, 
+        <span className="textHighlight"> Next.js</span>, 
+        <span className="textHighlight"> Tailwind CSS</span>, 
+        <span className="textHighlight"> Node.js</span>, 
+        and other related technologies.  
+        While I possess a basic understanding of 
+        <span className="textHighlight"> PHP</span>,
+        <span className="textHighlight"> SQL</span>,
+        <span className="textHighlight"> MySQL</span>,
+        <span className="textHighlight"> Express.js </span> and
+        <span className="textHighlight"> Prisma</span>.
+        I am eager to learn on the job and acquire other relevant knowledge. 
+        I am highly motivated and passionate about this role, 
+        continuously enhancing my skills and actively improving myself to excel in this position. 
         I look forward to receiving the opportunity to work with you.
       </p>
 
       <div className="text-center flex flex-col sm:flex-row">
             <div className="my-5 mx-2">
                 <Link 
-                  href='/images/Resume Pornpimon Pradabsri_FED_.pdf'
+                  href='/images/Resume Pornpimon Pradabsri-DEV.pdf'
                   target="_blank"
                 >
                     

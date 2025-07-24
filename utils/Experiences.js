@@ -24,11 +24,14 @@ export const ExperiencesData = [
             'Develop front-end web-based applications using HTML, CSS, Bootstrap5, Tailwind CSS, JavaScript, React.js, Next.js, CodeIgniter.',
             'Build a website or application based on designs from a UX/UI Designer.',
             'UX/UI designed using Figma.',
+            'Experience basic with RESTful APIs.',
+            'Basic understanding logic of PHP, MySQL, Express.js, Prisma.',
+            'Familiarity with version control systems such as Git.',
             'Collaborate with back-end developers, designers, and product managers to implement new features and improve existing ones.',
             'Create a user manual for a mobile application.',
             'Debug in the existing code and improve it as assigned.',
-            'As an admin, managed Content Management Systems (CMS), including adding, deleting, and editing content to display according to Entrepreneur requirements.',
-            'As a developer, directly managed modules, including adding, deleting, modifying, and customizing Content Management Systems (CMS).',
+            'As an admin, I managed data with Content Management Systems (CMS).',
+            'As a developer, I directly managed modules, including adding, deleting, modifying, and customizing Content Management Systems (CMS).',
             'Responsible for any special assignment assigned.',
         ]
     },
@@ -39,9 +42,10 @@ export const ExperiencesData = [
         location: 'Bangkapi, BKK',
         logo: '/images/kk.jpg',
         detail: [ 
-            'Modified and adapted code to restore program functionality when errors occurred or data was not displayed.',
-            'Developed backend features using PHP, MySQL and SQL Server as assigned.',
-            'Carried out responsibilities assigned by supervisors.', 
+            'Fix bugs and improve software.',
+            'Maintain web applications using PHP, SQL Server, JavaScript, HTML, and CSS.',
+            'Ensure the performance, quality, and responsiveness of applications.', 
+            'Responsible for any special assignment assigned.',
         ] 
     },
     {
@@ -51,9 +55,9 @@ export const ExperiencesData = [
         location: 'Ratchathewi, BKK',
         logo: '/images/gpo.png',
         detail:[         
-            'Oversaw the tablet production process for Metformin (a medication used to treat Type 2 diabetes), including operating and monitoring machinery on the production line, as well as other types of tablet medications.',
-            'Inspected medication, packaging processes, and the packaging of medication into containers.',
-            'Prepared documentation on production data and daily/monthly batch reports.',
+            'Oversaw the tablet medicine  production process name is Metformin (a medication used to treat Type 2 diabetes), as well as other types of tablet medications.',
+            'Tablet quality inspection, the machine-driven cold-formed blistering process, and the subsequent packaging of the foil blister packs into final packaging.',
+            'Documentation of batch-specific drug manufacturing data, along with the generation of summaries detailing total drug production volume on a daily, weekly, and monthly basis.',
             'Carried out responsibilities assigned by supervisors.',   
         ]    
     },
@@ -67,9 +71,9 @@ export const ExperiencesData = [
             'Attended meetings with Senior Project Managers and clients to gather project requirements.',
             'Wrote meeting reports from the raw data to explain and assign tasks to developers for coding according to the requirements.',
             'Coordinated between the Senior Project Manager, clients, and developers to ensure smooth and aligned work.',
-            'Created mock-up designs (UX/UI Design).',
-            'Added new information or update content to the database using a content management system (CMS).',  
-            'Fixed and modified website code to restore functionality.',
+            'UX/UI Designed.',
+            'Managed data with content management system (CMS).',  
+            'Fix bugs and improve software.',
             'Carried out responsibilities assigned by supervisors.',
         ]
     },
