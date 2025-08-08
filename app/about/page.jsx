@@ -21,7 +21,7 @@ const About = () => {
                     variants={varients.moveRight}
                     transition='duration: 0.6'
                 >
-                    <h2 className="font-bold gardient-text text-transparent">Front-end Developer</h2>
+                    <h2 className="font-bold gardient-text text-transparent">Front-end</h2>
                     <p className="indent-5">
                         I'm front-end developer with experience in building responsive and optimized sites.
                     </p>
@@ -33,7 +33,7 @@ const About = () => {
                     variants={varients.moveRight}
                     transition='duration: 0.9'
                 >
-                    <h2 className="font-bold gardient-text text-transparent">Back-end Developer</h2>
+                    <h2 className="font-bold gardient-text text-transparent">Back-end</h2>
                     <p className="indent-5"> 
                         My proficiency is at a basic level about back-end development and API, but I am actively learning and improving to gain a deeper understanding of this field.
                     </p>
@@ -45,7 +45,7 @@ const About = () => {
                     variants={varients.moveRight}
                     transition='duration: 1.2'
                 >
-                    <h2 className="font-bold gardient-text text-transparent">UX/UI Designer</h2>
+                    <h2 className="font-bold gardient-text text-transparent">UX/UI Designed</h2>
                     <p className="indent-5">
                         I have designed multiple landing pages and have created designed system as well.
                     </p>
@@ -67,7 +67,7 @@ const About = () => {
         
 
         <div className="text-center my-13">
-            <h1 className="text-[23px] gardient-text capitalize">about skills language programming , tools</h1>
+            <h1 className="text-[23px] gardient-text capitalize">about skills</h1>
             <SkillsPage />
         </div>
         

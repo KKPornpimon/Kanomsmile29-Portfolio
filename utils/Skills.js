@@ -1,6 +1,6 @@
 
 
-export const SkillsLogo = [
+export const ProLanguage = [
     {
         logo: '/images/logos/html.png',
         title: 'html'
@@ -10,53 +10,69 @@ export const SkillsLogo = [
         title: 'css'
     },
     {
-        logo: '/images/logos/bootstrap5.png',
-        title: 'bootstrap5'
-    },
-    {
         logo: '/images/logos/js.png',
-        title: 'js'
-    },
-    {
-        logo: '/images/logos/nextjs.png',
-        title: 'nextjs'
-    },
-    {
-        logo: '/images/logos/react.png',
-        title: 'react'
-    },
-    {
-        logo: '/images/logos/tailwindcss.png',
-        title: 'tailwindcss'
-    },
-    {
-        logo: '/images/logos/materialui.png',
-        title: 'materialui'
-    },
-    {
-        logo: '/images/logos/shadcnui.png',
-        title: 'shadcnui'
+        title: 'javascript'
     },
     {
         logo: '/images/logos/nodejs.png',
-        title: 'nodejs'
+        title: 'node.js'
     },
     {
         logo: '/images/logos/php.png',
         title: 'php'
+    },
+]
+
+
+export const ProLibraries = [
+
+    {
+        logo: '/images/logos/react.png',
+        title: 'react.js'
+    },
+    {
+        logo: '/images/logos/tailwindcss.png',
+        title: 'tailwind css'
+    },
+    {
+        logo: '/images/logos/bootstrap5.png',
+        title: 'bootstrap 5'
+    },
+    {
+        logo: '/images/logos/materialui.png',
+        title: 'material ui'
+    },
+    {
+        logo: '/images/logos/shadcnui.png',
+        title: 'shadcn/ui'
+    },
+    {
+        logo: '/images/logos/clerk.png',
+        title: 'clerk'
+    },
+]
+
+export const ProFrameworks = [
+    {
+        logo: '/images/logos/nextjs.png',
+        title: 'next.js'
+    },
+    {
+        logo: '/images/logos/express.png',
+        title: 'express.js'
     },
     {
         logo: '/images/logos/codeigniter.png',
         title: 'codeigniter'
     },
     {
-        logo: '/images/logos/express.png',
-        title: 'express'
+        logo: '/images/logos/joomla.png',
+        title: 'joomla'
     },
-    {
-        logo: '/images/logos/clerk.png',
-        title: 'clerk'
-    },
+]
+
+export const ProTools = [
+
     {
         logo: '/images/logos/figma.png',
         title: 'figma'
@@ -68,10 +84,6 @@ export const SkillsLogo = [
     {
         logo: '/images/logos/git.png',
         title: 'git'
-    },
-    {
-        logo: '/images/logos/joomla.png',
-        title: 'joomla'
     },
     {
         logo: '/images/logos/postman.png',

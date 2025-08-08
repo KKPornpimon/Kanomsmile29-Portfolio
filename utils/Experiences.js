@@ -21,13 +21,11 @@ export const ExperiencesData = [
         location: 'Lat Phrao, BKK',
         logo: '/images/mather.jpg',
         detail: [
-            'Develop front-end web-based applications using HTML, CSS, Bootstrap5, Tailwind CSS, JavaScript, React.js, Next.js, CodeIgniter.',
+            'Develop front-end web-based applications using HTML, CSS, Bootstrap 5, Tailwind CSS, Javascript, React.js, Next.js, CodeIgniter.',
             'Build a website or application based on designs from a UX/UI Designer.',
-            'UX/UI designed using Figma.',
-            'Experience basic with RESTful APIs.',
-            'Basic understanding logic of PHP, MySQL, Express.js, Prisma.',
-            'Familiarity with version control systems such as Git.',
-            'Collaborate with back-end developers, designers, and product managers to implement new features and improve existing ones.',
+            'UX/UI designed ',
+            'Connected REST API between front-end and back-end.',
+            'Collaborate with back-end developers, UX/UI designers, and project managers to implement new features and improve existing ones.',
             'Create a user manual for a mobile application.',
             'Debug in the existing code and improve it as assigned.',
             'As an admin, I managed data with Content Management Systems (CMS).',
@@ -38,7 +36,7 @@ export const ExperiencesData = [
     {
         position: 'Programmer Staff',
         place: 'Kangzen Kenko International Co., Ltd.',
-        date: 'September 2020- February 2021',
+        date: 'September 2020 - February 2021',
         location: 'Bangkapi, BKK',
         logo: '/images/kk.jpg',
         detail: [ 
@@ -51,7 +49,7 @@ export const ExperiencesData = [
     {
         position: 'Pharmaceutical production department(Permanent Employees)',
         place: 'Government Pharmaceutical Organization',
-        date: 'July 2010 - December 2019',
+        date: 'June 2010 - December 2019',
         location: 'Ratchathewi, BKK',
         logo: '/images/gpo.png',
         detail:[         

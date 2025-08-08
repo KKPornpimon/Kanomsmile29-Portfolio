@@ -29,24 +29,15 @@ const Hero = () => {
           <h2 className="sm:pt-2">Front-end Developer</h2>
       </div>
       <p className="text-gray-300 w-full sm:w-[80%] text-center">
-        I am seeking a position as a Front-end Developer. 
-        My experience includes building web applications using 
-        <span className="textHighlight"> React.js</span>, 
-        <span className="textHighlight"> Next.js</span>, 
-        <span className="textHighlight"> Tailwind CSS</span>, 
-        <span className="textHighlight"> Node.js</span>, 
-        and other related technologies.  
-        While I possess a basic understanding of 
-        <span className="textHighlight"> PHP</span>,
-        <span className="textHighlight"> SQL</span>,
-        <span className="textHighlight"> MySQL</span>,
-        <span className="textHighlight"> Express.js </span> and
-        <span className="textHighlight"> Prisma</span>.
-        I am eager to learn on the job and acquire other relevant knowledge. 
-        I am highly motivated and passionate about this role, 
-        continuously enhancing my skills and actively improving myself to excel in this position. 
-        I look forward to receiving the opportunity to work with you.
+        I am seeking a position as a <span className="textHighlight"> Front-end Developer</span>. 
+        I am highly motivated and passionate about this role. 
+        I have a strong eagerness to work and continuously develop 
+        relevant skills to ensure users have an excellent web application 
+        experience and to best meet their needs. I am always committed 
+        to further developing my related skills and am ready to learn new things.
+        I look forward to the opportunity to work with you.
       </p>
+      
 
       <div className="text-center flex flex-col sm:flex-row">
             <div className="my-5 mx-2">
