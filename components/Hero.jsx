@@ -26,10 +26,10 @@ const Hero = () => {
       </div>
       <div className="text-center font-bold text-2xl sm:text-3xl md:text-4xl mt-10 mb-5 text-gray-300">
           <h1>Hello I'm {"<"} <span className="text-[#8FFABD]">Kanomwarn</span> {"/>"}</h1>
-          <h2 className="sm:pt-2">Front-end Developer</h2>
+          {/* <h3 className="sm:pt-2">Front-end Developer</h3> */}
       </div>
       <p className="text-gray-300 w-full sm:w-[80%] text-center">
-        I am seeking a position as a <span className="textHighlight"> Front-end Developer</span>. 
+        I am seeking a position as a <span className="textHighlight"> Front-end Developer, Software Developer, Project Manager</span>. 
         I am highly motivated and passionate about this role. 
         I have a strong eagerness to work and continuously develop 
         relevant skills to ensure users have an excellent web application 

@@ -57,8 +57,13 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-center hover:bg-emerald-200 rounded-md gap-4 p-2 my-2 border border-emerald-600">
+                  <img src="/images/logos/phone.png" />
+                  <label className=" text-sm sm:text-base">064-9710329</label>
+                </div>
+
+                <div className="flex items-center hover:bg-emerald-200 rounded-md gap-4 p-2 my-2 border border-emerald-600">
                   <img src="/images/logos/line.png" />
-                  <label className=" text-sm sm:text-base">kanomwarnmon</label>
+                  <label className=" text-sm sm:text-base">candycanva915</label>
                 </div>
 
                 <div className="flex items-center hover:bg-emerald-200 rounded-md gap-4 p-2 my-2 border border-emerald-600">
